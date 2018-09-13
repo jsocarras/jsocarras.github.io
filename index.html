@@ -6,7 +6,7 @@
 
     x_test = np.array(['I am happy to see you'])
     X_test_indices = sentences_to_indices(x_test, word_to_index, maxLen)
-    print(x_test[0] +' '+  label_to_emoji(np.argmax(model.predict(X_test_indices))))
+    np.argmax(model.predict(X_test_indices))
   </head>
 <body>
 <h1>Hello World</h1>
