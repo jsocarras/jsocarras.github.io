@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    import * as tf from '@tensorflow/tfjs';
-    const model = await tf.loadModel('https://storage.cloud.google.com/sentiment-analysis-55b/model.json');
+<head>
+import * as tf from '@tensorflow/tfjs';
+const model = await tf.loadModel('https://storage.cloud.google.com/sentiment-analysis-55b/model.json');
 
-    x_test = np.array(['I am happy to see you'])
-    X_test_indices = sentences_to_indices(x_test, word_to_index, maxLen)
-    np.argmax(model.predict(X_test_indices))
-  </head>
+x_test = np.array(['I am happy to see you'])
+X_test_indices = sentences_to_indices(x_test, word_to_index, maxLen)
+np.argmax(model.predict(X_test_indices))
+</head>
 <body>
 <h1>Hello World</h1>
 <p>I'm hosted with GitHub Pages.</p>
