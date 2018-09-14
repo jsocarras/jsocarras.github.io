@@ -1,4 +1,4 @@
-
+import numpy as np
 
 x_test = np.array(['I am happy to see you'])
 X_test_indices = sentences_to_indices(x_test, word_to_index, maxLen)
