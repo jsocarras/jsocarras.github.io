@@ -1,4 +1,3 @@
-//import * as tf from '@tensorflow/tfjs'; swapped for <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest"></script>
 const model = await tf.loadModel('https://storage.cloud.google.com/sentiment-analysis-55b/model.json');
 
 x_test = np.array(['I am happy to see you'])
