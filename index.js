@@ -1,3 +1,4 @@
+var tf = require('@tensorflow/tfjs')
 import * as tf from '@tensorflow/tfjs';
 
 x_test = np.array(['I am happy to see you'])
