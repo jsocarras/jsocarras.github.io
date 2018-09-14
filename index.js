@@ -1,6 +1,6 @@
 //var tf = require('@tensorflow/tfjs')
 //import * as tf from '@tensorflow/tfjs';
-import numpy as np
+import numpy as np;
 
 async function myFirstTfjs() {
     const model = tf.loadModel('https://storage.cloud.google.com/sentiment-analysis-55b/model.json');
